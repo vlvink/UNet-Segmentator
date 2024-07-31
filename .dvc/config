@@ -1,0 +1,9 @@
+[core]
+    remote = remote
+    autostage = false
+
+['remote "remote"']
+    url = s3://cf84ff66-unet-segmentator
+    endpointurl = https://s3.timeweb.cloud
+    access_key_id = Q7HLNRE8OPUX1X37BYYO
+    secret_access_key = wba9bsCAA2jLUu3gmwz9Uvd0DzFdUs5yB30UWkRw

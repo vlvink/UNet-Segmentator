@@ -1,0 +1,17 @@
+# DotEnv cofnfiguration
+.env
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Snakemake
+.snakemake/
+
+# venv
+venv
+
+# git
+.git/

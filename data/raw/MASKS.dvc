@@ -1,0 +1,6 @@
+outs:
+- md5: e1a5146d277aa7af70fac53b453421e4.dir
+  size: 15778128
+  nfiles: 1000
+  hash: md5
+  path: MASKS
