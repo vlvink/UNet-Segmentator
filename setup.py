@@ -1,10 +1,9 @@
-from setuptools import find_packages, setup
+import src
 
-setup(
-    name='src',
-    packages=find_packages(),
-    version='0.1.0',
-    description='A short description of the project.',
-    author='Your name (or your organization/company/team)',
-    license='MIT',
-)
+IMAGE_DATA_PATH = "data/raw/IMAGES"
+MASK_DATA_PATH = "data/raw/MASKS"
+
+
+if __name__ == "__main__":
+    src.make_dataframe(IMAGE_DATA_PATH, MASK_DATA_PATH)
+
